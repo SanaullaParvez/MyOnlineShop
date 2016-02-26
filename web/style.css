@@ -1,0 +1,158 @@
+/* 
+    Document   : style
+    Created on : Mar 20, 2012, 10:20:28 AM
+    Author     : Abdulla
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+* {
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+A {
+    text-decoration:none;
+    border:none;
+}
+A:link    { color: #3A6200}    /* unvisited links */
+A:visited { color: #686833; }   /* visited links   */
+A:hover   { color: blue; }
+A:active  { color: red }   /* active links    */
+img {
+    border:none;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#000;
+    font-size:12px;
+}
+#wrap {
+    width:960px;
+    border:1px solid red;
+    margin:0 auto;
+}
+#header {
+    width:960px;
+    overflow:hidden;
+    height:50px;
+    border:1px solid red;
+}
+.header_left {
+    float:left;
+    width:200px;
+    height:48px;
+    border:1px solid red;
+    padding:10px;
+}
+
+.header_right {
+    float:right;
+    width:380px;
+    height:48px;
+    border:1px solid red;
+    padding:10px;
+}
+.header_right li {
+    border-left:1px solid red;
+    float:left;
+    padding:0 15px;
+    font-size:20px;
+}
+
+.header_right li:first-child {
+    border:none;
+}
+#main_content {
+    width:960px;
+    overflow:hidden;
+    border:1px solid red;
+}
+#left_sidebar {
+    float:left;
+    width:280px;
+    padding:20px 0 20px 5px;
+    border:1px solid red;
+    height:460px;
+    overflow:scroll;
+}
+
+#aleft_sidebar h2 {
+    background:#F03;
+    line-height:50px;
+    padding:0 20px;
+}
+
+#aleft_sidebar li {
+    line-height:20px;
+    padding:2px 0;
+}
+#aleft_sidebar li a {
+    padding:5px;
+    display:block;
+    background:#06F;
+    color:#fff;
+    font-weight:bold;
+}
+#aleft_sidebar li a:hover {
+    background:#C90;
+    color:#930;
+}
+.content {
+    float:right;
+    width:650px;	
+    border:1px solid red;
+}
+.search {
+    width:640px;
+    height:30px;
+    border:1px solid red;
+    padding: 2px 0 0 45px;
+}
+.btm_content_area {
+    width:962px;
+    height:300px;
+    border:1px solid red;
+    overflow:scroll;
+    padding:20px 0;
+    margin-bottom:40px;
+}
+.btm_content_area h2 {
+    width:900px;
+    height:50px;
+    background:#F2F2F2;
+    line-height:50px;
+    padding:0 20px;
+}
+.btm_content_area ul {
+    width:940px;
+    overflow:hidden;
+}
+.btm_content_area li {
+    float:left;
+    padding:10px;
+    border:1px solid red;
+}
+.btm_content_area li a {
+    width:210px;
+    height:193px;
+    display:block; 
+}
+.btm_content_area_img{
+    width:108px;
+    height:150px;
+    padding:10px 0px 0px 0px;
+
+}
+.login_area {
+    width:310px;
+}
